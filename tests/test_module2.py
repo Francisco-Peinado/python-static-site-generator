@@ -10,7 +10,7 @@ def test_parser_base_class_module2(parse):
     # from pathlib import Path
 
     # class Parser:
-    #     extensions: List[str] = []
+    #     extensions: List[str] = [ ]
 
     parsers = parse("parsers")
     assert parsers.success, parsers.message
